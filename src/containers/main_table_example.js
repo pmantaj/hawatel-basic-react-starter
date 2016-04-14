@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { getTimezone } from '../actions/index'; // import getTimezone action from external file
+import { getTimezone } from '../actions/index';
 
 
 class SearchBar extends Component {
@@ -16,8 +16,6 @@ class SearchBar extends Component {
 
     changeState() {
         var tester = this.props.getTimezone('Warsaw');
-        console.log(tester);
-
         this.setState({
             count: this.state.count + 1
         });
