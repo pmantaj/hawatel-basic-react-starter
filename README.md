@@ -18,9 +18,9 @@ Simple starter kit for reactjs project, it includes:
 ### Installation
 
 ```{r, engine='bash', count_lines}
-    $git clone git@github.com:Hawatel/hawatel-react-starter.git
-    $cd hawatel-react-starter
-    $npm install
-    $npm start
+   $git clone git@github.com:Hawatel/hawatel-react-starter.git
+   $cd hawatel-react-starter
+   $npm install
+   $npm start
 ```
 
